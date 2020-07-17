@@ -7,3 +7,9 @@ client_scripts {
 	'client/pools.lua',
 	'client/main.lua'
 }
+
+
+--By Rex
+--LIETUVIŠKAS EDITAS: TheBlaster1337#5487
+--Copyright prašau netrinti :)
+--Gero naudojimo!
