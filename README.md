@@ -3,9 +3,11 @@
 Viskas padaryta pagal (RexFuelM) skripta :https://streamable.com/n9awgk
 
 # Kas pakeista?
- -Pakeisti degalinių pavadinimai
- -Padaryta jog rodytu 3d kiek yra degalų kai privažiuoji/prieini prie degalinės
- -Viskas išversta ir sutvarkytos kuro sąnaudos
+ •Pakeisti degalinių pavadinimai
+ 
+ •Padaryta jog rodytu 3d kiek yra degalų kai privažiuoji/prieini prie degalinės
+ 
+ •Viskas išversta ir sutvarkytos kuro sąnaudos
  
  Viskas atrodo taip: https://i.imgur.com/S3O8uJW.png
  
