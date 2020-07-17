@@ -728,7 +728,7 @@ Citizen.CreateThread(function()
 
 			 if rpm > 0.9 then
                 rpmfuelusage = fuel - rpm / 9.97
-				print("top")
+				--print("top")
                 Citizen.Wait(1000)
             elseif rpm > 0.8 then
                 rpmfuelusage = fuel - rpm / 10.1
@@ -740,24 +740,24 @@ Citizen.CreateThread(function()
                 rpmfuelusage = fuel - rpm / 10.3
                 Citizen.Wait(3000)
             elseif rpm > 0.5 then
-			print("middle")
+			--print("middle")
                 rpmfuelusage = fuel - rpm / 10.4
                 Citizen.Wait(4000)
             elseif rpm > 0.4 then
-			print("bottom1")
+			--print("bottom1")
                 rpmfuelusage = fuel - rpm / 10.5
                 Citizen.Wait(5000)
             elseif rpm > 0.3 then
                 rpmfuelusage = fuel - rpm / 10.5
-				print("bottom2")
+				--print("bottom2")
                 Citizen.Wait(6000)
             elseif rpm > 0.2 then
-			print("bottom3")
+			--print("bottom3")
                 rpmfuelusage = fuel - rpm / 10.5
                 Citizen.Wait(8000)
             else
                 rpmfuelusage = fuel - rpm / 10.5
-				print("bottom4")
+				--print("bottom4")
                 Citizen.Wait(15000)
             end
 

@@ -9,7 +9,4 @@ client_scripts {
 }
 
 
---By Rex
 --LIETUVIŠKAS EDITAS: TheBlaster1337#5487
---Copyright prašau netrinti :)
---Gero naudojimo!

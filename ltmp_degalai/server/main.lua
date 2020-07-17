@@ -79,7 +79,7 @@ AddEventHandler("LegacyFuel:RequestStation",function(id)
 		station = {fuel=2000.0}
 		stations[id] = station
 		if names.n == 0 then
-			station.name = "Gas Station"
+			station.name = "Degaline"
 			print(tostring(GetPlayerName(source)).." discovered a new fuel station, but there are no names left! ("..id..")")
 		else
 			station.name = table.remove(names,math.random(1,names.n))
@@ -212,7 +212,7 @@ local	ESX = nil
 	TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 		local xPlayer = ESX.GetPlayerFromId(source)
 		local amount = ESX.Math.Round(price)
-print("why no take money")
+--print("why no take money")
 		if price > 0 then
 			xPlayer.removeMoney(amount)
 		end
@@ -220,7 +220,7 @@ print("why no take money")
 
 print("REX FUELM EDITS BY REX")
 print("V1.5")
-print("LIETUVIÅ KAS EDITAS: TheBlaster1337#5487")
+print("LIETUVIŠKAS EDITAS: TheBlaster1337#5487")
 print(" ")
 print(" ")
 print("THIS NEEDS TO IN THE MAIN RESOURCE FOLDER FOR IT TO LOAD AND SAVE THE STATION TANK LEVELS ")
