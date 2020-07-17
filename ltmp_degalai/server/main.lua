@@ -220,7 +220,7 @@ print("why no take money")
 
 print("REX FUELM EDITS BY REX")
 print("V1.5")
-print(" ")
+print("LIETUVIÅ KAS EDITAS: TheBlaster1337#5487")
 print(" ")
 print(" ")
 print("THIS NEEDS TO IN THE MAIN RESOURCE FOLDER FOR IT TO LOAD AND SAVE THE STATION TANK LEVELS ")
