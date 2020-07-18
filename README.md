@@ -15,3 +15,7 @@ Viskas padaryta pagal (RexFuelM) skripta :https://streamable.com/n9awgk
 Prašau nesisavinti šio skripto, parašykit bent kad skriptą redagavau aš (TheBlaster1337 #5487 arba github.com/Slavmen)
 
 Kaip įsikelti manau žinosit. Gero naudojimo!
+
+# Kaip pridėti degalų į degalinę
+
+Tai galima padaryti redagavus stations.txt faila arba kaip nors surišus su fūristų darbu pvz. kai krovinys būna atvežtas į degalinę, toje degalinėje padidėja degalų likutis.
