@@ -16,6 +16,6 @@ Prašau nesisavinti šio skripto, parašykit bent kad skriptą redagavau aš (Th
 
 Kaip įsikelti manau žinosit. Gero naudojimo!
 
-# Kaip pridėti degalų į degalinę
+# Kaip pridėti degalų į degalinę?
 
 Tai galima padaryti redagavus stations.txt faila arba kaip nors surišus su fūristų darbu pvz. kai krovinys būna atvežtas į degalinę, toje degalinėje padidėja degalų likutis.
