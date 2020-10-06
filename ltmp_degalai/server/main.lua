@@ -6,19 +6,19 @@ local file = "resources\\"..resource.."\\stations.txt"
 local players = {}
 local stations = {}
 local names = {
-	"Shell",
-	"7-11",
-	"Hess",
-	"Cumbies",
-	"Moble",
-	"one",
-	"Alpha",
-	"Bravo",
-	"Charlie",
-	"Delta",
-	"Echo",
-	"Foxtrot",
-	"Gary The Snail",
+	"Viada",
+	"Apoil",
+	"Kvistija",
+	"Ecogas",
+	"Circle K",
+	"Baltic Petroleum",
+	"Regusa",
+	"EMSI",
+	"Rotada",
+	"Saurida",
+	"Orlen",
+	"Ecoil",
+	"Alausa",
 }
 names.n = #names
 
@@ -220,7 +220,7 @@ print("why no take money")
 
 print("REX FUELM EDITS BY REX")
 print("V1.5")
-print("LIETUVIÅ KAS EDITAS: TheBlaster1337#5487")
+print("LIETUVIÃ…Â KAS EDITAS: TheBlaster1337#5487")
 print(" ")
 print(" ")
 print("THIS NEEDS TO IN THE MAIN RESOURCE FOLDER FOR IT TO LOAD AND SAVE THE STATION TANK LEVELS ")
