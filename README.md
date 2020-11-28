@@ -14,7 +14,8 @@ Viskas padaryta pagal (RexFuelM) skripta :https://streamable.com/n9awgk
  
 Prašau nesisavinti šio skripto, parašykit bent kad skriptą redagavau aš (TheBlaster1337 #5487 arba github.com/Slavmen)
 
-Kaip įsikelti manau žinosit. Gero naudojimo!
+Kaip įsikelti:
+_ltmp_degalai folderį keliam į **resources** folderį (**NE KITĄ**)
 
 # Kaip pridėti degalų į degalinę?
 
