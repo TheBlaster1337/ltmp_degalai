@@ -16,6 +16,8 @@ Prašau nesisavinti šio skripto, parašykit bent kad skriptą redagavau aš (Th
 
 Kaip įsikelti:
 _ltmp_degalai folderį keliam į **resources** folderį (**NE KITĄ**)
+_į duomenų bazę nereikia nieko kelti nes viskas išsisaugo į **stations.txt** failą
+_įkėlus ltmp_degalai folderį į kitą vietą negu nurodyta, degalinių pavadinimai keisis bei neišsaugos kiek liko litrų kiekvienoje degalinėje kiekvieną karta perkrovus skriptą
 
 # Kaip pridėti degalų į degalinę?
 
