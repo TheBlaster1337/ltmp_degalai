@@ -1,9 +1,9 @@
 Config = {}
 
-Config.EnableBlips				= true
-Config.EnableJerryCans			= true
-Config.EnableBuyableJerryCans	= true -- Coming soon, currently useless
-Config.VehicleFailure			= 7 -- At what fuel-percentage should the engine stop functioning properly? (Defualt: 10)
+Config.EnableBlips				= true -- blips rodymas
+Config.EnableJerryCans			= true -- degalu kanistru naudojimas (ar turint degalu kanistra, bus galima uzpilti degalu)
+Config.EnableBuyableJerryCans	= true -- degalu kanistru pirkimas (siuo metu neegzistuoja)
+Config.VehicleFailure			= 7 -- degalu bako likutis kuri pasiekus, tr.priemone vaziuos blogiau
 
 
 
@@ -32,7 +32,7 @@ Config.Classes = {
 	[21] = 1.0, -- Trains
 }
 
--- The left part is at percentage RPM, and the right is how much fuel (divided by 10) you want to remove from the tank every second
+-- Kaireje puseje tr.priemones apsuku procentai, o desineje, kiek degalu (padalinus is 10) bus naudojama
 Config.FuelUsage = {
 	[1.0] = 1.4,
 	[0.9] = 1.2,
