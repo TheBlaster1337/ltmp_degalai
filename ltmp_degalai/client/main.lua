@@ -1,4 +1,4 @@
-models = {
+models = { -- cia galite pakeisti degaliniu koloneliu modeliu id jei turite/norite naudoti kita
 	[1] = -2007231801,
 	[2] = 1339433404,
 	[3] = 1694452750,
@@ -8,7 +8,7 @@ models = {
 	[7] = -164877493
 }
 
-blacklistedVehicles = {
+blacklistedVehicles = { --cia galite prideti tr.priemoniu spawn kodus kurioms nereiks degalu
 	[11] = TR22,
 	[10] = TESLAX,
 	[1] = BMX,
@@ -242,25 +242,25 @@ Citizen.CreateThread(function()
 					DrawText3Ds(pumpLoc['x'], pumpLoc['y'], pumpLoc['z'], "Spausk ~g~G ~w~kad baigtum. Suma:~r~" .. price .. "~w~€")
 					DrawText3Ds(position.x, position.y, position.z + 0.5, fuel .. "%")
 					
-					DisableControlAction(0, 0, true) -- Changing view (V)
-					DisableControlAction(0, 22, true) -- Jumping (SPACE)
-					DisableControlAction(0, 23, true) -- Entering vehicle (F)
-					DisableControlAction(0, 24, true) -- Punching/Attacking
-					DisableControlAction(0, 29, true) -- Pointing (B)
-					DisableControlAction(0, 30, true) -- Moving sideways (A/D)
-					DisableControlAction(0, 31, true) -- Moving back & forth (W/S)
-					DisableControlAction(0, 37, false) -- Weapon wheel
-					DisableControlAction(0, 44, true) -- Taking Cover (Q)
-					DisableControlAction(0, 56, true) -- F9
-					DisableControlAction(0, 82, true) -- Mask menu (,)
-					DisableControlAction(0, 140, true) -- Hitting your vehicle (R)
-					DisableControlAction(0, 166, true) -- F5
-					DisableControlAction(0, 167, true) -- F6
-					DisableControlAction(0, 168, true) -- F7
-					DisableControlAction(0, 170, true) -- F3
-					DisableControlAction(0, 288, true) -- F1
-					DisableControlAction(0, 289, true) -- F2
-					DisableControlAction(1, 323, true) -- Handsup (X)
+					DisableControlAction(0, 0, true) -- (V)
+					DisableControlAction(0, 22, true) -- (SPACE)
+					DisableControlAction(0, 23, true) -- (F)
+					DisableControlAction(0, 24, true) -- Left click
+					DisableControlAction(0, 29, true) -- (B)
+					DisableControlAction(0, 30, true) -- (A/D)
+					DisableControlAction(0, 31, true) -- (W/S)
+					DisableControlAction(0, 37, false) -- Mouse wheel
+					DisableControlAction(0, 44, true) -- (Q)
+					DisableControlAction(0, 56, true) -- (F9)
+					DisableControlAction(0, 82, true) -- (,)
+					DisableControlAction(0, 140, true) -- (R)
+					DisableControlAction(0, 166, true) -- (F5)
+					DisableControlAction(0, 167, true) -- (F6)
+					DisableControlAction(0, 168, true) -- (F7)
+					DisableControlAction(0, 170, true) -- (F3)
+					DisableControlAction(0, 288, true) -- (F1)
+					DisableControlAction(0, 289, true) -- (F2)
+					DisableControlAction(1, 323, true) -- (X)
 
 					if pumpIsEmpty or IsControlJustReleased(0, 47) then
 						if pumpIsEmpty then
@@ -279,7 +279,7 @@ Citizen.CreateThread(function()
 						price = 0
 						IsFueling = false
 					end
-				elseif fuel > 95.0 then
+				elseif fuel > 95.0 then --95.0 = degalu bako talpa
 					DrawText3Ds(pumpLoc['x'], pumpLoc['y'], pumpLoc['z'], "Bakas pilnas!")
 				elseif cash <= 0 then
 					DrawText3Ds(pumpLoc['x'], pumpLoc['y'], pumpLoc['z'], "Neturi pinigu")
@@ -316,25 +316,25 @@ Citizen.CreateThread(function()
 				if IsFuelingWithJerryCan then
 					DrawText3Ds(coords.x, coords.y, coords.z + 0.5, "Paspausk ~g~G ~w~kad baigtum. Uzpilta: " .. fuel .. "% - Kanistre: " .. jerrycan)
 
-					DisableControlAction(0, 0, true) -- Changing view (V)
-					DisableControlAction(0, 22, true) -- Jumping (SPACE)
-					DisableControlAction(0, 23, true) -- Entering vehicle (F)
-					DisableControlAction(0, 24, true) -- Punching/Attacking
-					DisableControlAction(0, 29, true) -- Pointing (B)
-					DisableControlAction(0, 30, true) -- Moving sideways (A/D)
-					DisableControlAction(0, 31, true) -- Moving back & forth (W/S)
-					DisableControlAction(0, 37, false) -- Weapon wheel
-					DisableControlAction(0, 44, true) -- Taking Cover (Q)
-					DisableControlAction(0, 56, true) -- F9
-					DisableControlAction(0, 82, true) -- Mask menu (,)
-					DisableControlAction(0, 140, true) -- Hitting your vehicle (R)
-					DisableControlAction(0, 166, true) -- F5
-					DisableControlAction(0, 167, true) -- F6
-					DisableControlAction(0, 168, true) -- F7
-					DisableControlAction(0, 170, true) -- F3
-					DisableControlAction(0, 288, true) -- F1
-					DisableControlAction(0, 289, true) -- F2
-					DisableControlAction(1, 323, true) -- Handsup (X)
+					DisableControlAction(0, 0, true) -- (V)
+					DisableControlAction(0, 22, true) -- (SPACE)
+					DisableControlAction(0, 23, true) -- (F)
+					DisableControlAction(0, 24, true) -- Left click
+					DisableControlAction(0, 29, true) -- (B)
+					DisableControlAction(0, 30, true) -- (A/D)
+					DisableControlAction(0, 31, true) -- (W/S)
+					DisableControlAction(0, 37, false) -- Mouse wheel
+					DisableControlAction(0, 44, true) -- (Q)
+					DisableControlAction(0, 56, true) -- (F9)
+					DisableControlAction(0, 82, true) -- (,)
+					DisableControlAction(0, 140, true) -- (R)
+					DisableControlAction(0, 166, true) -- (F5)
+					DisableControlAction(0, 167, true) -- (F6)
+					DisableControlAction(0, 168, true) -- (F7)
+					DisableControlAction(0, 170, true) -- (F3)
+					DisableControlAction(0, 288, true) -- (F1)
+					DisableControlAction(0, 289, true) -- (F2)
+					DisableControlAction(1, 323, true) -- (X)
 
 					if IsControlJustReleased(0, 47) then
 						loadAnimDict("reaction@male_stand@small_intro@forward")
@@ -395,7 +395,7 @@ Citizen.CreateThread(function()
 			
 			local newfuel  = fuel + fuelthis
 
-			price = price + fuelthis * 4.0 * 0.5
+			price = price + fuelthis * 4.0 * 0.5 -- degalu kainos apskaiciavimas
 
 			if cash >= price then
 				TriggerServerEvent('LegacyFuel:CheckServerFuelTable', plate)
@@ -713,7 +713,7 @@ AddEventHandler('LegacyFuel:ReturnFuelFromServerTable', function(vehInfo)
 	table.insert(Vehicles, {plate = vehInfo.plate, fuel = fuel})
 end)
 
-Citizen.CreateThread(function()
+Citizen.CreateThread(function() -- degalu naudojimo pagal apsukas funkcija
 	while true do
 		Citizen.Wait(5000)
 
@@ -794,7 +794,7 @@ AddEventHandler('LegacyFuel:RecieveCashOnHand', function(cb)
 	cash = cb
 end)
 
-local gas_stations = {
+local gas_stations = { -- degaliniu koordinates
 { ['x'] = 49.4187,   ['y'] = 2778.793,  ['z'] = 58.043},
 	{ ['x'] = 263.894,   ['y'] = 2606.463,  ['z'] = 44.983},
 	{ ['x'] = 1039.958,  ['y'] = 2671.134,  ['z'] = 39.550},
