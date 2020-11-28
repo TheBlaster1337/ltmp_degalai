@@ -27,7 +27,7 @@ math.randomseed(os.time())
 local saveStations = function()
 	local f,m = io.open(file,"w")
 	if not f then
-		print("FAILED TO SAVE GAS STATIONS: "..tostring(m).."!")
+		print("NEPAVYKO ISSAUGOTI DEGALINIU: "..tostring(m).."!")
 		return
 	end
 	for id,info in pairs(stations) do
@@ -43,7 +43,7 @@ end
 local loadStations = function()
 	local count,f,m = 0,io.open(file,"r")
 	if not f then
-		print("FAILED TO LOAD GAS STATIONS: "..tostring(m).."!")
+		print("NEPAVYKO UZKRAUTI DEGALINIU: "..tostring(m).."!")
 		return
 	end
 	for line in f:lines() do
@@ -55,10 +55,10 @@ local loadStations = function()
 		if string.find(line,"%S") then
 			local a,b,id,fuel,name = string.find(line,"%s*(%S+)%s*(%S+)%s*([^\r\n]+)")
 			if id and name and tonumber(fuel) then
-				print("LOADED GAS STATION: "..name.." ["..fuel.."] ("..id..").")
+				print("Degaline uzkrauta: "..name.." ["..fuel.."] ("..id..").")
 				stations[id] = {name=name,fuel=tonumber(fuel)*1.0}
 			else
-				print("FAILED TO LOAD GAS STATIONS: INVALID LINE #"..count.."!")
+				print("NEPAVYKO UZKRAUTI DEGALINIU: stations.txt faile yra klaida! Eilute #"..count.."!")
 				f:close()
 				return
 			end
@@ -79,12 +79,12 @@ AddEventHandler("LegacyFuel:RequestStation",function(id)
 		station = {fuel=2000.0}
 		stations[id] = station
 		if names.n == 0 then
-			station.name = "Gas Station"
-			print(tostring(GetPlayerName(source)).." discovered a new fuel station, but there are no names left! ("..id..")")
+			station.name = "Degaline"
+			print(tostring(GetPlayerName(source)).." atrado nauja degaline, taciau nera laisvu pavadinimu! ("..id..")")
 		else
 			station.name = table.remove(names,math.random(1,names.n))
 			names.n = names.n - 1
-			print(tostring(GetPlayerName(source)).." discovered a new fuel station: "..station.name..". ("..id..")")
+			print(tostring(GetPlayerName(source)).." atrado nauja degaline: "..station.name..". ("..id..")")
 		end
 		if loadedfile then
 			saveStations()
@@ -218,12 +218,12 @@ print("why no take money")
 		end
 	end)
 
-print("REX FUELM EDITS BY REX")
-print("V1.5")
-print("LIETUVIÃ…Â KAS EDITAS: TheBlaster1337#5487")
-print(" ")
-print(" ")
-print("THIS NEEDS TO IN THE MAIN RESOURCE FOLDER FOR IT TO LOAD AND SAVE THE STATION TANK LEVELS ")
+print("Skriptas pakeistas nuo REX FUELM EDITS BY REX")
+print("LIETUVISKAS EDITAS: TheBlaster1337#5487")
+print("V1.6")
+print("Jeigu turite pasiulymu, pateikite juos https://github.com/Slavmen/ltmp_degalai/issues")
+print("Jeigu pamatete bugu, praneskite apie juos https://github.com/Slavmen/ltmp_degalai/issues")
+print("ltmp_degalai folderis PRIVALO buti resources folderyje")
 RegisterServerEvent('LegacyFuel:CheckCashOnHand')
 AddEventHandler('LegacyFuel:CheckCashOnHand', function()
 		local xPlayer = ESX.GetPlayerFromId(source)
