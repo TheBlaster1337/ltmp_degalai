@@ -14,9 +14,11 @@ Viskas padaryta pagal (RexFuelM) skripta :https://streamable.com/n9awgk
 
 # Kaip įsikelti?
 
-•ltmp_degalai folderį keliam į **resources** folderį (**NE KITĄ**)
-•į duomenų bazę nereikia nieko kelti nes viskas išsisaugo į **stations.txt** failą
-•įkėlus ltmp_degalai folderį į kitą vietą negu nurodyta, degalinių pavadinimai keisis bei neišsaugos kiek liko litrų kiekvienoje degalinėje kiekvieną karta perkrovus skriptą
+1. ltmp_degalai folderį keliam į **resources** folderį (**NE KITĄ**)
+
+*į duomenų bazę nereikia nieko kelti nes viskas išsisaugo į **stations.txt** failą
+
+*įkėlus ltmp_degalai folderį į kitą vietą negu nurodyta, degalinių pavadinimai keisis bei neišsaugos kiek liko litrų kiekvienoje degalinėje kiekvieną karta perkrovus skriptą
 
 # Kaip pridėti degalų į degalinę?
 
